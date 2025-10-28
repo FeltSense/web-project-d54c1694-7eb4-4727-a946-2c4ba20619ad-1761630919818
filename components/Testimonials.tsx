@@ -1,12 +1,12 @@
 export default function Testimonials() {
   return (
-    <section className="py-16 px-4 bg-gradient-to-b from-white to-gray-50">
+    <section className="py-16 px-4 bg-gradient-to-b from-black to-gray-900">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-12">
-      <h2 className="text-4xl font-bold text-gray-900 mb-4">
+      <h2 className="text-4xl font-bold text-white mb-4">
         Trusted by Teams Worldwide
       </h2>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <p className="text-xl text-gray-300 max-w-2xl mx-auto">
         See how CloudSync Pro is transforming the way businesses collaborate and manage their data
       </p>
     </div>
@@ -40,8 +40,8 @@ export default function Testimonials() {
             SM
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900">Sarah Mitchell</h4>
-            <p className="text-gray-600 text-sm">VP of Operations, TechVenture Inc</p>
+            <h4 className="font-semibold text-white">Sarah Mitchell</h4>
+            <p className="text-gray-300 text-sm">VP of Operations, TechVenture Inc</p>
           </div>
         </div>
       </div>
@@ -74,8 +74,8 @@ export default function Testimonials() {
             JC
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900">James Chen</h4>
-            <p className="text-gray-600 text-sm">IT Director, Meridian Financial</p>
+            <h4 className="font-semibold text-white">James Chen</h4>
+            <p className="text-gray-300 text-sm">IT Director, Meridian Financial</p>
           </div>
         </div>
       </div>
@@ -108,8 +108,8 @@ export default function Testimonials() {
             ER
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900">Emily Rodriguez</h4>
-            <p className="text-gray-600 text-sm">Creative Director, Pixel Studios</p>
+            <h4 className="font-semibold text-white">Emily Rodriguez</h4>
+            <p className="text-gray-300 text-sm">Creative Director, Pixel Studios</p>
           </div>
         </div>
       </div>
@@ -142,8 +142,8 @@ export default function Testimonials() {
             MP
           </div>
           <div>
-            <h4 className="font-semibold text-gray-900">Marcus Patel</h4>
-            <p className="text-gray-600 text-sm">CTO, GlobalEdge Solutions</p>
+            <h4 className="font-semibold text-white">Marcus Patel</h4>
+            <p className="text-gray-300 text-sm">CTO, GlobalEdge Solutions</p>
           </div>
         </div>
       </div>

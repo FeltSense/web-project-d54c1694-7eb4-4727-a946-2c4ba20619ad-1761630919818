@@ -1,12 +1,12 @@
 export default function Pricing() {
   return (
-    <section className="py-20 px-4 bg-gradient-to-b from-gray-50 to-white">
+    <section className="py-20 px-4 bg-gradient-to-b from-black to-gray-900">
   <div className="max-w-7xl mx-auto">
     <div className="text-center mb-16">
-      <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4">
+      <h2 className="text-4xl md:text-5xl font-bold text-white mb-4">
         Simple, Transparent Pricing
       </h2>
-      <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+      <p className="text-xl text-gray-300 max-w-2xl mx-auto">
         Choose the perfect plan for your cloud storage needs. All plans include 99.9% uptime SLA.
       </p>
     </div>
@@ -15,13 +15,13 @@ export default function Pricing() {
       {/* Starter Tier */}
       <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
         <div className="mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Starter</h3>
-          <p className="text-gray-600 text-sm">Perfect for individuals</p>
+          <h3 className="text-2xl font-bold text-white mb-2">Starter</h3>
+          <p className="text-gray-300 text-sm">Perfect for individuals</p>
         </div>
         <div className="mb-6">
           <div className="flex items-baseline">
-            <span className="text-5xl font-bold text-gray-900">$9</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-5xl font-bold text-white">$9</span>
+            <span className="text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -67,13 +67,13 @@ export default function Pricing() {
           Popular
         </div>
         <div className="mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Professional</h3>
-          <p className="text-gray-600 text-sm">For small teams</p>
+          <h3 className="text-2xl font-bold text-white mb-2">Professional</h3>
+          <p className="text-gray-300 text-sm">For small teams</p>
         </div>
         <div className="mb-6">
           <div className="flex items-baseline">
-            <span className="text-5xl font-bold text-gray-900">$29</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-5xl font-bold text-white">$29</span>
+            <span className="text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -122,13 +122,13 @@ export default function Pricing() {
       {/* Business Tier */}
       <div className="bg-white rounded-2xl shadow-lg p-8 border-2 border-gray-200 hover:border-blue-500 transition-all duration-300 hover:shadow-xl">
         <div className="mb-6">
-          <h3 className="text-2xl font-bold text-gray-900 mb-2">Business</h3>
-          <p className="text-gray-600 text-sm">For growing companies</p>
+          <h3 className="text-2xl font-bold text-white mb-2">Business</h3>
+          <p className="text-gray-300 text-sm">For growing companies</p>
         </div>
         <div className="mb-6">
           <div className="flex items-baseline">
-            <span className="text-5xl font-bold text-gray-900">$79</span>
-            <span className="text-gray-600 ml-2">/month</span>
+            <span className="text-5xl font-bold text-white">$79</span>
+            <span className="text-gray-300 ml-2">/month</span>
           </div>
         </div>
         <ul className="space-y-4 mb-8">
@@ -235,14 +235,14 @@ export default function Pricing() {
             <span className="text-gray-200">On-Premise Deployment</span>
           </li>
         </ul>
-        <button className="w-full bg-white text-gray-900 py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
+        <button className="w-full bg-white text-white py-3 px-6 rounded-lg font-semibold hover:bg-gray-100 transition-colors duration-200">
           Contact Sales
         </button>
       </div>
     </div>
 
     <div className="mt-16 text-center">
-      <p className="text-gray-600 mb-4">All plans include 256-bit AES encryption and automatic backups</p>
+      <p className="text-gray-300 mb-4">All plans include 256-bit AES encryption and automatic backups</p>
       <p className="text-sm text-gray-500">Need a custom solution? <a href="#" className="text-blue-600 hover:text-blue-700 font-semibold">Contact our sales team</a></p>
     </div>
   </div>
